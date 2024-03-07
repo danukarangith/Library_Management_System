@@ -1,4 +1,4 @@
 package lk.ijse.Dao;
 
-public class MemberDao {
+public interface MemberDao {
 }

@@ -1,4 +1,4 @@
 package lk.ijse.Dao;
 
-public class CrudUtil {
+public interface CrudUtil {
 }

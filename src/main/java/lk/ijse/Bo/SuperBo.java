@@ -1,4 +1,4 @@
 package lk.ijse.Bo;
 
-public class SuperBo {
+public interface SuperBo {
 }
