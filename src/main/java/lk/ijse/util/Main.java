@@ -1,4 +1,4 @@
-package lk.ijse;
+package lk.ijse.util;
 
 public class Main {
     public static void main(String[] args) {
