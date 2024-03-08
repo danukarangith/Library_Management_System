@@ -5,31 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="book Entity implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/SearchBookBoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/SearchBookBo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/util/ChangeForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/util/SessionFactoryConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/util/getIdNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a19ebfb4-b42e-41c6-9cfb-35b5ce025ade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a19ebfb4-b42e-41c6-9cfb-35b5ce025ade.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/loginpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame1(3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/AdminBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/AdminBo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/BoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/BoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/AdminBoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/AdminBoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/MemberBoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/MemberBoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/MemberBo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/MemberBo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/CrudUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/CrudUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/AdminDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/AdminDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/DaoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/MemberDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/MemberDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/MemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/MemberDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dto/AdminDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dto/AdminDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dto/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dto/MemberDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Entity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Entity/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/AppIntilizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/AppIntilizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/LoginPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/LoginPage.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +21,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -91,7 +74,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/danuka/Downloads/Libary_manage-main",
+    "last_opened_file_path": "/home/danuka/Documents/GDSE68/book-worm-project/src/main/resources/img",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,6 +93,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/img" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -185,6 +172,8 @@
       <updated>1709821973889</updated>
       <workItem from="1709821974958" duration="13031000" />
       <workItem from="1709879481104" duration="4730000" />
+      <workItem from="1709897939307" duration="855000" />
+      <workItem from="1709901629449" duration="3240000" />
     </task>
     <task id="LOCAL-00001" summary="iniitial commit">
       <option name="closed" value="true" />

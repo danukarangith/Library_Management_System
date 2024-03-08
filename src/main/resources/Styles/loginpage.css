@@ -1,0 +1,45 @@
+.eye{
+    -fx-background-image: url('../resources/img/off.png');
+    -fx-background-size: cover;
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-z-index: 1000;
+}
+.text-field {
+    -fx-background-color: #f2f2f2;
+    -fx-background-radius: 5;
+    -fx-padding: 5px;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+}
+
+.text-field:focused {
+    -fx-border-color: #007bff;
+    -fx-border-width: 2px;
+}
+.hyperlink {
+    -fx-text-fill: #007bff;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.hyperlink:hover {
+    -fx-text-fill: #0056b3;
+}
+.login-button {
+    -fx-background-color: #C13C57;
+    -fx-background-radius: 5;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5;
+    -fx-cursor: hand;
+}
+
+.login-button:hover {
+    -fx-background-color:  #D24545;
+}
+
+.login-button:pressed {
+    -fx-background-color:  #E78895;
+}

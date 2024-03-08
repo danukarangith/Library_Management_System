@@ -12,7 +12,7 @@ public class AppIntilizer extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/Forms/DashboardPage.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/Forms/LoginPage.fxml"))));
         stage.setTitle("Login Dashboard");
         stage.initStyle(StageStyle.UNDECORATED);
         stage.centerOnScreen();
