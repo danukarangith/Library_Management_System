@@ -1,11 +1,10 @@
 package lk.ijse.Dao.Custom;
 
-import com.mysql.cj.Session;
 import lk.ijse.Dao.BookDao;
 import lk.ijse.Entity.Books;
 import lk.ijse.util.SessionFactoryConfiguration;
 import org.hibernate.Query;
- 
+import org.hibernate.Session;
 
 
 import java.util.List;

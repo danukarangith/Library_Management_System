@@ -1,4 +1,22 @@
 package lk.ijse.Dao.Custom;
 
-public class AdminDaoImpl {
+import lk.ijse.Dao.AdminDao;
+import lk.ijse.Entity.Admin;
+import lk.ijse.util.SessionFactoryConfiguration;
+import org.hibernate.Session;
+
+import java.util.List;
+
+public class AdminDaoImpl implements AdminDao {
+
+    Session session = SessionFactoryConfiguration.getInstance().getSession();
+    @Override
+    public Admin getData(int Id) {
+        return session.get(Admin.class, Id);
+    }
+
+    @Override
+    public List<String> getOneData() {
+        return null;
+    }
 }
