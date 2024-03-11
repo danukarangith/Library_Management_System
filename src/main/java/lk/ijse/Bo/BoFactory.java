@@ -2,6 +2,7 @@ package lk.ijse.Bo;
 
 import lk.ijse.Bo.Custom.AdminBoImpl;
 import lk.ijse.Bo.Custom.MemberBoImpl;
+import lk.ijse.Bo.Custom.RegisterBoImpl;
 import lk.ijse.Bo.Custom.SearchBookBoImpl;
 
 public class BoFactory {
@@ -16,7 +17,7 @@ public class BoFactory {
     }
 
     public enum BoType{
-        Member,Admin,Search_Book
+        Member,Admin,Search_Book,Register,Manage_Book,UserMange,Branch,DashBoard
     }
 
     public SuperBo getBo(BoType boType){
@@ -27,6 +28,16 @@ public class BoFactory {
                 return new AdminBoImpl();
             case Search_Book:
                 return new SearchBookBoImpl();
+            case Register:
+                return new RegisterBoImpl();
+//            case Manage_Book:
+//                return new ManageBookBoImpl();
+//            case UserMange:
+//                return new UserManageBImpl();
+//            case Branch:
+//                return new BranchBoImpl();
+//            case DashBoard:
+//                return new DashboardBoImpl();
             default:
                 return null;
         }
