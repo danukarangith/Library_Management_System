@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="book Entity implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/loginpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame1(3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/off.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="registerform design">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/AppIntilizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/AppIntilizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/LoginPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/LoginPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/MemberDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/MemberDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dto/MemberDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Dto/MemberDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/LoginPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/LoginPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/RegisterForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/RegisterForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +20,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="FxmlFile" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -56,42 +55,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.AppIntilizer.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Run.executor": "Run",
-    "Application.lk.ijse.Main.executor": "Run",
-    "Application.lk.ijse.Run.executor": "Run",
-    "Application.lk.ijse.util.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/danuka/Documents/GDSE68/book-worm-project/src/main/resources/img",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.AppIntilizer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lk.ijse.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lk.ijse.Run.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lk.ijse.util.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/danuka/Libary_manage-main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/img" />
@@ -173,7 +172,12 @@
       <workItem from="1709821974958" duration="13031000" />
       <workItem from="1709879481104" duration="4730000" />
       <workItem from="1709897939307" duration="855000" />
-      <workItem from="1709901629449" duration="3240000" />
+      <workItem from="1709901629449" duration="3931000" />
+      <workItem from="1709954277301" duration="122000" />
+      <workItem from="1709991265694" duration="1917000" />
+      <workItem from="1710136364013" duration="5499000" />
+      <workItem from="1710179442702" duration="684000" />
+      <workItem from="1710223252159" duration="3509000" />
     </task>
     <task id="LOCAL-00001" summary="iniitial commit">
       <option name="closed" value="true" />
@@ -223,7 +227,39 @@
       <option name="project" value="LOCAL" />
       <updated>1709882882367</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="loginpage design">
+      <option name="closed" value="true" />
+      <created>1709905020623</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709905020623</updated>
+    </task>
+    <task id="LOCAL-00008" summary="registerform design">
+      <option name="closed" value="true" />
+      <created>1710179511578</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710179511578</updated>
+    </task>
+    <task id="LOCAL-00009" summary="registerform design">
+      <option name="closed" value="true" />
+      <created>1710179931790</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710179931790</updated>
+    </task>
+    <task id="LOCAL-00010" summary="registerform design">
+      <option name="closed" value="true" />
+      <created>1710179980683</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1710179980683</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +273,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="first window navigated" />
     <MESSAGE value="book Entity implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="book Entity implemented" />
+    <MESSAGE value="loginpage design" />
+    <MESSAGE value="registerform design" />
+    <option name="LAST_COMMIT_MESSAGE" value="registerform design" />
   </component>
 </project>

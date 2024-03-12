@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
@@ -10,7 +11,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="602.0" prefWidth="969.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.LoginPageController">
    <children>
       <ImageView fitHeight="602.0" fitWidth="969.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
@@ -18,31 +18,30 @@
             <Image url="@../img/Frame1(3).png" />
          </image>
       </ImageView>
-      <TextField layoutX="616.0" layoutY="277.0" prefHeight="33.0" prefWidth="233.0" promptText=" " styleClass="text-field" stylesheets="@../Styles/loginpage.css" />
-      <TextField layoutX="618.0" layoutY="348.0" prefHeight="33.0" prefWidth="233.0" />
-      <PasswordField layoutX="618.0" layoutY="348.0" prefHeight="33.0" prefWidth="233.0" styleClass="text-field" stylesheets="@../Styles/loginpage.css" />
-      <Button layoutX="659.0" layoutY="440.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="136.0" styleClass="login-button" stylesheets="@../Styles/loginpage.css" text="Login" />
-      <Hyperlink layoutX="767.0" layoutY="493.0" stylesheets="@../Styles/loginpage.css" text="Create one" />
+      <TextField fx:id="Username" layoutX="616.0" layoutY="260.0" prefHeight="33.0" prefWidth="233.0" promptText=" " styleClass="text-field" stylesheets="@../Styles/loginpage.css" />
+      <TextField fx:id="PasswordTextFild" layoutX="617.0" layoutY="320.0" prefHeight="33.0" prefWidth="233.0" />
+      <PasswordField fx:id="PasswordFild" layoutX="616.0" layoutY="320.0" prefHeight="33.0" prefWidth="233.0" styleClass="text-field" stylesheets="@../Styles/loginpage.css" />
+      <Button layoutX="659.0" layoutY="440.0" mnemonicParsing="false" onAction="#LoginOnActhion" prefHeight="30.0" prefWidth="136.0" styleClass="login-button" stylesheets="@../Styles/loginpage.css" text="Login" />
+      <Hyperlink layoutX="767.0" layoutY="493.0" onMouseClicked="#RegisterHerebtnOnActhion" stylesheets="@../Styles/loginpage.css" text="Create one" />
       <Text layoutX="617.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dont have an account?" />
       <Hyperlink layoutX="737.0" layoutY="397.0" stylesheets="@../Styles/loginpage.css" text="Forget password" />
-      <Text fill="#1b0000" layoutX="618.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+      <Text fill="#1b0000" layoutX="618.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Text>
-      <Text fill="#1b0101" layoutX="618.0" layoutY="343.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+      <Text fill="#1b0101" layoutX="618.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>
       </Text>
-      <Button layoutX="810.0" layoutY="349.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="22.0" styleClass="eye" stylesheets="@../Styles/loginpage.css">
-         <graphic>
-            <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../img/off.png" />
-               </image>
-            </ImageView>
-         </graphic>
-      </Button>
+      <Button fx:id="viewPass" layoutX="823.0" layoutY="324.0" mnemonicParsing="false" onAction="#viewPassOnActhion" prefHeight="22.0" prefWidth="22.0" styleClass="eye" stylesheets="@../Styles/loginpage.css" />
+      <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="823.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/off.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="AdminCheckBox" layoutX="621.0" layoutY="364.0" mnemonicParsing="false" text="Admin" />
+      <CheckBox fx:id="MemberCheckBox" layoutX="735.0" layoutY="364.0" mnemonicParsing="false" text="Member" />
    </children>
 </AnchorPane>

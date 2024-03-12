@@ -12,8 +12,6 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
-import lk.ijse.Bo.BoFactory;
-import lk.ijse.Bo.RegisterBo;
 import lk.ijse.Dto.MemberDTO;
 
 import java.io.IOException;

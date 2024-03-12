@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="602.0" prefWidth="969.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.RegisterFormController">
    <children>
       <ImageView fitHeight="602.0" fitWidth="969.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
@@ -17,14 +16,27 @@
             <Image url="@../img/Frame2(3).png" />
          </image>
       </ImageView>
-      <TextField layoutX="114.0" layoutY="259.0" prefHeight="24.0" prefWidth="208.0" promptText="Username" />
-      <TextField layoutX="114.0" layoutY="306.0" prefHeight="24.0" prefWidth="208.0" promptText="Email" />
-      <TextField layoutX="114.0" layoutY="355.0" prefHeight="24.0" prefWidth="208.0" promptText="password" />
-      <TextField layoutX="114.0" layoutY="414.0" prefHeight="24.0" prefWidth="208.0" promptText="confirm password" />
-      <PasswordField layoutX="114.0" layoutY="355.0" prefHeight="24.0" prefWidth="208.0" promptText="password" />
-      <PasswordField layoutX="114.0" layoutY="414.0" prefHeight="24.0" prefWidth="208.0" promptText="confirm password" />
-      <Button layoutX="155.0" layoutY="477.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="125.0" text="Create Account" />
-      <Hyperlink layoutX="265.0" layoutY="521.0" text="Signin" />
+      <TextField fx:id="emailText" layoutX="114.0" layoutY="334.0" prefHeight="24.0" prefWidth="208.0" promptText="Email" />
+      <TextField fx:id="PasswordTextFild" layoutX="114.0" layoutY="372.0" prefHeight="24.0" prefWidth="208.0" promptText="password" />
+      <TextField fx:id="PasswordConfirmText" layoutX="114.0" layoutY="415.0" prefHeight="24.0" prefWidth="208.0" promptText="confirm password" />
+      <PasswordField fx:id="PasswordFild" layoutX="114.0" layoutY="372.0" prefHeight="24.0" prefWidth="208.0" promptText="password" />
+      <PasswordField fx:id="PasswordConfirm" layoutX="115.0" layoutY="415.0" prefHeight="24.0" prefWidth="208.0" promptText="confirm password" />
+      <Button layoutX="155.0" layoutY="466.0" mnemonicParsing="false" onAction="#RegisterbtnOnActhion" prefHeight="24.0" prefWidth="125.0" text="Create Account" />
+      <Hyperlink layoutX="265.0" layoutY="521.0" onMouseClicked="#loginBtnOnAction" text="Signin" />
       <Text layoutX="162.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="back to Login?" />
+      <TextField fx:id="usernameText" layoutX="115.0" layoutY="295.0" prefHeight="24.0" prefWidth="208.0" promptText="Username" />
+      <TextField fx:id="NameText" layoutX="114.0" layoutY="254.0" prefHeight="24.0" prefWidth="208.0" promptText="Fullname" />
+      <Button fx:id="viewConfirmPass" layoutX="299.0" layoutY="414.0" mnemonicParsing="false" onAction="#viewConfirmPassOnActhion" prefHeight="18.0" prefWidth="18.0" styleClass="eye" stylesheets="@../Styles/loginpage.css" />
+      <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="304.0" layoutY="418.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/off.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="viewPass" layoutX="300.0" layoutY="371.0" mnemonicParsing="false" onAction="#viewPassOnActhion" prefHeight="18.0" prefWidth="18.0" styleClass="eye" stylesheets="@../Styles/loginpage.css" />
+      <ImageView fitHeight="18.0" fitWidth="18.0" layoutX="304.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/off.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
