@@ -1,4 +1,6 @@
 package lk.ijse.Bo;
 
-public interface RegisterService {
-}
+import lk.ijse.Dto.MemberDto;
+
+public interface RegisterService extends SuperService{
+    int Register(MemberDto member);}

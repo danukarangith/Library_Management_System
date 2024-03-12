@@ -12,13 +12,17 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
-import lk.ijse.Dto.MemberDTO;
+import lk.ijse.Bo.RegisterService;
+import lk.ijse.Bo.ServiceFactor;
+import lk.ijse.Dto.MemberDto;
+import lk.ijse.util.Validation;
 
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
 public class RegisterFormController implements Initializable {
+
     public TextField NameText;
     @FXML
     private PasswordField PasswordConfirm;
@@ -45,7 +49,7 @@ public class RegisterFormController implements Initializable {
     private Button viewPass;
 
 
-    RegisterBo registerBo = (RegisterBo) BoFactory.getBoFactory().getBo(BoFactory.BoType.Register);
+    private final RegisterService registerService = (RegisterService) ServiceFactor.getBoFactory().getBo(ServiceFactor.BoType.Register);
 
     Boolean flag = false;
     Boolean flag1 = false;
@@ -105,11 +109,21 @@ public class RegisterFormController implements Initializable {
     }
 
     public void RegisterbtnOnActhion(ActionEvent actionEvent) {
-        Register();
+        if (Validation.isValidEmail(emailText.getText()) && Validation.isValidName(NameText.getText())){
+            if (PasswordFild.getText().equals(PasswordConfirm.getText())) {
+                Register();
+            }
+            else {
+                new Alert(Alert.AlertType.ERROR,"Password Not Match").show();
+            }
+        }
+        else {
+            new Alert(Alert.AlertType.ERROR,"Invalid Input").show();
+        }
     }
 
     private void Register() {
-        int register = registerBo.Register(new MemberDTO(1,NameText.getText(), usernameText.getText(), PasswordFild.getText(), emailText.getText()));
+        int register = registerService.Register(new MemberDto(1,NameText.getText(), usernameText.getText(), PasswordFild.getText(), emailText.getText()));
 
         if (register != -1){
 

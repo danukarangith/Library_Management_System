@@ -8,25 +8,28 @@ import lombok.ToString;
 
 import javax.persistence.*;
 
-    @Entity
-    @Table(name = "Member")
-    @Data
-    @AllArgsConstructor
-    @NoArgsConstructor
-    @ToString
-    public class Member {
+@Entity
+@Table(name = "Member")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+public class Member {
 
-        @Id
-        @GeneratedValue(strategy = GenerationType.IDENTITY)
-        @Column (name = "Member_Id" )
-        private int Id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "Member_Id")
+    private int id;
 
-        @Column( name = "Username" )
-        private String Username;
+    @Column(name = "Full_Name")
+    private String full_name;
 
-        @Column( name = "Password" )
-        private String Password;
+    @Column(name = "Username")
+    private String username;
 
-        @Column( name = "Email" )
-        private String Email;
+    @Column(name = "Password")
+    private String password;
+
+    @Column(name = "Email")
+    private String email;
 }

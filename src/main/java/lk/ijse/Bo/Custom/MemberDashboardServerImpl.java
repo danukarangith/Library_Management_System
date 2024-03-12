@@ -1,6 +1,6 @@
 package lk.ijse.Bo.Custom;
 
-import lk.ijse.Bo.UserManageService;
+import lk.ijse.Bo.MemberDashboardService;
 import lk.ijse.Dao.Custom.RepositoryFactory;
 import lk.ijse.Dao.MemberRepository;
 import lk.ijse.Dto.MemberDto;
@@ -9,35 +9,24 @@ import lk.ijse.util.SessionFactoryConfiguration;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import java.util.ArrayList;
-
-public class UserManageServiceImpl implements UserManageService {
+public class MemberDashboardServerImpl implements MemberDashboardService {
     private final MemberRepository memberRepository = (MemberRepository) RepositoryFactory.getDaoFactory().getDao(RepositoryFactory.DaoType.Member);
-    private Session session = SessionFactoryConfiguration.getInstance().getSession();
-
+    private Session session;
     private Transaction transaction;
     @Override
-    public ArrayList<MemberDto> getAll() {
+    public MemberDto getData(String username) {
         session = SessionFactoryConfiguration.getInstance().getSession();
         memberRepository.SetSession(session);
+        Member data = memberRepository.getData(username);
 
-        ArrayList<Member> all = memberRepository.getAll();
-
-        ArrayList<MemberDto> admins = new ArrayList<>();
-
-        for (Member admin : all) {
-            admins.add(new MemberDto(admin.getId(), admin.getFull_name(), admin.getUsername(), admin.getPassword(), admin.getEmail()));
-        }
-
-        return admins;
+        return new MemberDto(data.getId(), data.getFull_name(), data.getUsername(), data.getPassword(), data.getEmail());
     }
 
     @Override
-    public void delete(int Id) {
+    public void Update(MemberDto memberDto) {
         session = SessionFactoryConfiguration.getInstance().getSession();
         memberRepository.SetSession(session);
-        memberRepository.Delete(Id);
+        memberRepository.Update(new Member(memberDto.getId(), memberDto.getFull_name(), memberDto.getUsername(), memberDto.getPassword(), memberDto.getEmail()));
         transaction = session.beginTransaction();
         transaction.commit();
-    }
-}
+    }}

@@ -2,6 +2,6 @@ package lk.ijse.Dao;
 
 import lk.ijse.Entity.Books;
 
-public interface BookDao extends CrudUtil<Books> {
+public interface BookRepository extends CrudUtil<Books> {
     Books getData(String title);
 }

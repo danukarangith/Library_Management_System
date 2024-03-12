@@ -9,6 +9,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
+import lk.ijse.Bo.AdminService;
+import lk.ijse.Bo.MemberService;
+import lk.ijse.Bo.ServiceFactor;
 
 import java.io.IOException;
 import java.net.URL;
@@ -66,7 +69,7 @@ public class LoginPageController implements Initializable {
 
     public void RegisterHerebtnOnActhion(MouseEvent mouseEvent) {
         try {
-            Parent parent = FXMLLoader.load(getClass().getResource("/Forms/RegisterPage.fxml"));
+            Parent parent = FXMLLoader.load(getClass().getResource("/Forms/RegisterForm.fxml"));
             Stage stage = (Stage) PasswordFild.getScene().getWindow();
             stage.setScene(new Scene(parent));
             stage.show();
