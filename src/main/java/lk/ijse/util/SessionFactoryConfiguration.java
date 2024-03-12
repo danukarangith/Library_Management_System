@@ -2,6 +2,7 @@ package lk.ijse.util;
 
 import lk.ijse.Entity.Admin;
 import lk.ijse.Entity.Books;
+import lk.ijse.Entity.Branch;
 import lk.ijse.Entity.Member;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -12,11 +13,12 @@ public class SessionFactoryConfiguration {
     private final SessionFactory sessionFactory;
 
     private SessionFactoryConfiguration(){
-        sessionFactory = new  Configuration()
-                .configure()
+        sessionFactory = new Configuration()
+                .mergeProperties(Utilities.getProperties())
                 .addAnnotatedClass(Member.class)
                 .addAnnotatedClass(Admin.class)
                 .addAnnotatedClass(Books.class)
+                .addAnnotatedClass(Branch.class)
                 .buildSessionFactory();
     }
 
