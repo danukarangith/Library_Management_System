@@ -1,4 +1,7 @@
 package lk.ijse.Bo;
 
-public interface AdminRegisterservice {
+import lk.ijse.Dto.AdminDto;
+
+public interface AdminRegisterservice extends SuperService{
+    int saveAdmin(AdminDto adminDto);
 }

@@ -8,8 +8,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 
-public class AdminDTO {
+public class AdminDto {
     private int Id;
+    private String Name;
     private String Username;
     private String Password;
     private String Email;
