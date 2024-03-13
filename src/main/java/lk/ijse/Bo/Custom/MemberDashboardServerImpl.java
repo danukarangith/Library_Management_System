@@ -1,6 +1,6 @@
 package lk.ijse.Bo.Custom;
 
-import lk.ijse.Bo.MemberDashboardService;
+import lk.ijse.Bo.MemberDashboardServer;
 import lk.ijse.Dao.Custom.RepositoryFactory;
 import lk.ijse.Dao.MemberRepository;
 import lk.ijse.Dto.MemberDto;
@@ -9,7 +9,7 @@ import lk.ijse.util.SessionFactoryConfiguration;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-public class MemberDashboardServerImpl implements MemberDashboardService {
+public class MemberDashboardServerImpl implements MemberDashboardServer {
     private final MemberRepository memberRepository = (MemberRepository) RepositoryFactory.getDaoFactory().getDao(RepositoryFactory.DaoType.Member);
     private Session session;
     private Transaction transaction;

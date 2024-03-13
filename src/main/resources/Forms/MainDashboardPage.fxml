@@ -1,14 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.Controller.MainDashboardPageFormController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="1011.0" prefWidth="1658.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.MainDashboardPageFormController">
+   <children>
+      <AnchorPane layoutX="3.0" layoutY="1.0" prefHeight="1039.0" prefWidth="257.0">
+         <children>
+            <Button alignment="CENTER_RIGHT" layoutX="-3.0" layoutY="232.0" mnemonicParsing="false" onAction="#DashboardbtnOnActhion" prefHeight="74.0" prefWidth="262.0" stylesheets="@../Styles/Dashboardbutton.css" text="Dashboard">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER_RIGHT" layoutX="-4.0" layoutY="386.0" mnemonicParsing="false" onAction="#SearchBookOnActhion" prefHeight="74.0" prefWidth="262.0" stylesheets="@../Styles/Dashboardbutton.css" text="Search Books">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER_RIGHT" layoutX="-3.0" layoutY="544.0" mnemonicParsing="false" onAction="#BookBorrowBtnOnActhion" prefHeight="74.0" prefWidth="262.0" stylesheets="@../Styles/Dashboardbutton.css" text="Borrow Books">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button alignment="CENTER_RIGHT" layoutX="-4.0" layoutY="702.0" mnemonicParsing="false" onAction="#ReturnBookBtnOnActhion" prefHeight="74.0" prefWidth="262.0" stylesheets="@../Styles/Dashboardbutton.css" text="Returns Books" textAlignment="RIGHT">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="168.0" fitWidth="228.0" layoutX="51.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/BOOk_worm-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="11.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/menu.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="8.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/book.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="6.0" layoutY="556.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/book(1).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="5.0" layoutY="713.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/book(2).png" />
+               </image>
+            </ImageView>
+            <Button alignment="CENTER_RIGHT" layoutX="44.0" layoutY="847.0" mnemonicParsing="false" onAction="#ExitBtnOnActhion" prefHeight="67.0" prefWidth="169.0" stylesheets="@../Styles/Dashboardbutton.css" text="Logout">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="50.0" fitWidth="55.0" layoutX="50.0" layoutY="856.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/logout%20(1).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="260.0" layoutY="-1.0" prefHeight="76.0" prefWidth="1676.0">
+         <children>
+            <Text layoutX="33.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hello User !">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="262.0" layoutY="72.0" prefHeight="964.0" prefWidth="1674.0" style="-fx-background-color: gray;">
+         <children>
+            <ImageView fitHeight="984.0" fitWidth="629.0" layoutX="1041.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/Frame3(2).png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="emailText" layoutX="1173.0" layoutY="505.0" prefHeight="62.0" prefWidth="354.0" />
+            <TextField fx:id="UsernameText" layoutX="1177.0" layoutY="622.0" prefHeight="62.0" prefWidth="354.0" />
+            <TextField fx:id="PasswordTextFild" layoutX="1177.0" layoutY="746.0" prefHeight="62.0" prefWidth="354.0" />
+            <Button layoutX="1255.0" layoutY="851.0" mnemonicParsing="false" onAction="#ChangePasswordOnActhion" prefHeight="38.0" prefWidth="196.0" text="Button" />
+            <Text layoutX="1181.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="1182.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="1184.0" layoutY="725.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Text>
+            <PasswordField fx:id="PasswordFild" layoutX="1175.0" layoutY="745.0" prefHeight="70.0" prefWidth="355.0" />
+         </children></AnchorPane>
+   </children>
 </AnchorPane>
