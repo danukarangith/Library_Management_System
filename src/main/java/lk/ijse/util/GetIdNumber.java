@@ -1,0 +1,36 @@
+package lk.ijse.util;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class GetIdNumber {
+    public static int getIdNumber(String Type ,String Id){
+
+        String pattern = null;
+
+        if (Type.equals("M")){
+            pattern = "M(\\d+)";
+        }
+        else if(Type.equals("A")){
+            pattern = "A(\\d+)";
+        }
+
+        // Create a Pattern object
+        Pattern regex = Pattern.compile(pattern);
+        Matcher matcher = regex.matcher(Id);
+        if (matcher.find()) {
+            String numberStr = matcher.group(1);
+            int number = Integer.parseInt(numberStr);
+            return number;
+        }
+        else {
+            return 0;
+        }
+    }
+}
+
+class Main{
+    public static void main(String[] args) {
+        System.out.println(GetIdNumber.getIdNumber("M","M01"));
+    }
+}

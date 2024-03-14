@@ -1,9 +1,6 @@
 package lk.ijse.util;
 
-import lk.ijse.Entity.Admin;
-import lk.ijse.Entity.Books;
-import lk.ijse.Entity.Branch;
-import lk.ijse.Entity.Member;
+import lk.ijse.Entity.*;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -19,6 +16,8 @@ public class SessionFactoryConfiguration {
                 .addAnnotatedClass(Admin.class)
                 .addAnnotatedClass(Books.class)
                 .addAnnotatedClass(Branch.class)
+                .addAnnotatedClass(BorrowBook.class)
+                .addAnnotatedClass(Book_Transaction.class)
                 .buildSessionFactory();
     }
 
