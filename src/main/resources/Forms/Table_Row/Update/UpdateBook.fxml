@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="686.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.Table_Row.Update.UpdateBook">
+   <children>
+      <ImageView fitHeight="686.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/Frame7(1).png" />
+         </image>
+      </ImageView>
+      <Button layoutX="193.0" layoutY="606.0" mnemonicParsing="false" onAction="#updateBtnOnActhion" prefHeight="45.0" prefWidth="207.0" style="-fx-background-color: white; -fx-border-color: blue; -fx-border-width: 3;" text="Update" textFill="BLUE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="id" layoutX="39.0" layoutY="219.0" />
+      <TextField fx:id="available" layoutX="339.0" layoutY="219.0" />
+      <TextField fx:id="title" layoutX="56.0" layoutY="313.0" prefHeight="34.0" prefWidth="443.0" />
+      <TextField fx:id="Author" layoutX="56.0" layoutY="430.0" prefHeight="34.0" prefWidth="443.0" />
+      <TextField fx:id="Genre" layoutX="56.0" layoutY="527.0" prefHeight="34.0" prefWidth="443.0" />
+   </children>
+</AnchorPane>
