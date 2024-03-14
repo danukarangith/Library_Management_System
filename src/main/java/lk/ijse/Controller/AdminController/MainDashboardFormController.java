@@ -57,13 +57,13 @@ public class MainDashboardFormController implements Initializable {
 //        ChangeForm.ChangePane(ChangePane,"Admin/ReturnBookFrom.fxml");
 //    }
 //
-//    public void ExitBtnOnActhion(ActionEvent actionEvent) {
-//        System.exit(0);
-//    }
-//
-//    public void UserbtnOnActhion(ActionEvent actionEvent) {
-//        ChangeForm.ChangePane(ChangePane,"Admin/UserManageFrom.fxml");
-//    }
+   public void ExitBtnOnActhion(ActionEvent actionEvent) {
+       System.exit(0);
+    }
+
+    public void UserbtnOnActhion(ActionEvent actionEvent) {
+        ChangeForm.ChangePane(ChangePane,"Admin/UserManagerForm.fxml");
+   }
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {

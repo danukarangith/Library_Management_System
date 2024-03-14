@@ -36,7 +36,7 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button alignment="CENTER_RIGHT" layoutX="48.0" layoutY="923.0" mnemonicParsing="false" prefHeight="64.0" prefWidth="171.0" text="Logout">
+            <Button alignment="CENTER_RIGHT" layoutX="48.0" layoutY="923.0" mnemonicParsing="false" onAction="#ExitBtnOnActhion" prefHeight="64.0" prefWidth="171.0" text="Logout">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
@@ -51,7 +51,7 @@
                   <Image url="@../../img/menu.png" />
                </image>
             </ImageView>
-            <Button alignment="CENTER_RIGHT" layoutX="2.0" layoutY="787.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="262.0" text="Users Manage">
+            <Button alignment="CENTER_RIGHT" layoutX="2.0" layoutY="787.0" mnemonicParsing="false" onAction="#UserbtnOnActhion" prefHeight="74.0" prefWidth="262.0" text="Users Manage">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
