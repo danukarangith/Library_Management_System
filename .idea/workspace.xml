@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="dashboard update">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame13(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame9(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/magnifier.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/BookviewFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/BookviewFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/DashboardPageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/DashboardPageFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MainDashboardPageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MainDashboardPageFormController.java" afterDir="false" />
+    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="user dasgboard implemented">
       <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/BookView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/BookView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/DashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/DashboardPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/MainDashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/MainDashboardPage.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,6 +181,7 @@
       <workItem from="1710317724236" duration="6057000" />
       <workItem from="1710355546280" duration="6329000" />
       <workItem from="1710405802977" duration="22505000" />
+      <workItem from="1710432100596" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="iniitial commit">
       <option name="closed" value="true" />
@@ -431,7 +423,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710427729460</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="book view page implemented">
+      <option name="closed" value="true" />
+      <created>1710432164895</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1710432164895</updated>
+    </task>
+    <task id="LOCAL-00032" summary="user dasgboard implemented">
+      <option name="closed" value="true" />
+      <created>1710432193500</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1710432193501</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +447,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="iniitial commit" />
     <MESSAGE value="packages hierarchy created" />
     <MESSAGE value="packages hierarchy fully crreated" />
     <MESSAGE value="first window navigated" />
@@ -463,6 +470,8 @@
     <MESSAGE value=" implementaion update" />
     <MESSAGE value="  User Manage implemented" />
     <MESSAGE value="dashboard update" />
-    <option name="LAST_COMMIT_MESSAGE" value="dashboard update" />
+    <MESSAGE value="book view page implemented" />
+    <MESSAGE value="user dasgboard implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="user dasgboard implemented" />
   </component>
 </project>

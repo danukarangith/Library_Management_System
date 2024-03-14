@@ -9,7 +9,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="982.0" prefWidth="1736.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.BookviewFormController">
    <children>
       <ImageView fitHeight="982.0" fitWidth="1736.0" layoutX="-2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
@@ -22,31 +21,43 @@
             <Font name="System Bold" size="19.0" />
          </font>
       </TextField>
-      <TextField fx:id="titleText" layoutX="179.0" layoutY="304.0" prefHeight="55.0" prefWidth="343.0" />
-      <Text layoutX="181.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
+      <TextField fx:id="titleText" layoutX="179.0" layoutY="304.0" prefHeight="55.0" prefWidth="343.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <Text fill="#ee0909" layoutX="181.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Text>
-      <TextField fx:id="AutorText" layoutX="828.0" layoutY="304.0" prefHeight="55.0" prefWidth="343.0" />
-      <Text layoutX="835.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author">
+      <TextField fx:id="AutorText" layoutX="828.0" layoutY="304.0" prefHeight="55.0" prefWidth="343.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <Text fill="#eb0a0a" layoutX="835.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Text>
-      <TextArea fx:id="DisText" layoutX="174.0" layoutY="504.0" prefHeight="241.0" prefWidth="1064.0" />
-      <Text layoutX="181.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+      <TextArea fx:id="DisText" layoutX="174.0" layoutY="504.0" prefHeight="241.0" prefWidth="1064.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextArea>
+      <Text fill="#eb0a0a" layoutX="181.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Text>
-      <TextField fx:id="genreText" layoutX="168.0" layoutY="826.0" prefHeight="55.0" prefWidth="343.0" />
-      <Text layoutX="178.0" layoutY="794.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Genre">
+      <TextField fx:id="genreText" layoutX="168.0" layoutY="826.0" prefHeight="55.0" prefWidth="343.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></TextField>
+      <Text fill="#eb0a0a" layoutX="178.0" layoutY="794.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Genre">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
       </Text>
-      <Text layoutX="796.0" layoutY="864.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Availability">
+      <Text fill="#eb0a0a" layoutX="796.0" layoutY="864.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Availability">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>
