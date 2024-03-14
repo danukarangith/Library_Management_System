@@ -15,9 +15,9 @@ import lk.ijse.util.Validation;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class DashboardPageFormController implements Initializable {
+public class DashboardPageFormController  {
 
-    public TextField emailText;
+/*    public TextField emailText;
     public TextField UsernameText;
     @FXML
     private PasswordField PasswordFild;
@@ -96,5 +96,5 @@ public class DashboardPageFormController implements Initializable {
         else {
             new Alert(Alert.AlertType.INFORMATION,"Please Enter Valid Data").show();
         }
-    }
+    }*/
 }
