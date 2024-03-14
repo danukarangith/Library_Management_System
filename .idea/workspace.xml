@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="update">
+    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="branch update implemneted">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame11(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame12.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BookRowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BookRowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/View/ViewBookFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/View/ViewBookFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/BranchFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/BranchFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBranchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBranchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/BranchForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/BranchForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/MainDashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/MainDashboardPage.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/ManageBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/ManageBook.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BookRow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BookRow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/SaveBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/SaveBook.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Update/UpdateBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Update/UpdateBook.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BranchRow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BranchRow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/BranchSave.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/BranchSave.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +191,7 @@
       <workItem from="1710308950176" duration="6861000" />
       <workItem from="1710317724236" duration="6057000" />
       <workItem from="1710355546280" duration="6329000" />
-      <workItem from="1710405802977" duration="10336000" />
+      <workItem from="1710405802977" duration="15888000" />
     </task>
     <task id="LOCAL-00001" summary="iniitial commit">
       <option name="closed" value="true" />
@@ -356,7 +361,39 @@
       <option name="project" value="LOCAL" />
       <updated>1710416661764</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update">
+      <option name="closed" value="true" />
+      <created>1710418271056</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710418271056</updated>
+    </task>
+    <task id="LOCAL-00023" summary="branchrow implemneted">
+      <option name="closed" value="true" />
+      <created>1710422533997</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1710422533997</updated>
+    </task>
+    <task id="LOCAL-00024" summary="branch view implemneted">
+      <option name="closed" value="true" />
+      <created>1710422567854</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1710422567854</updated>
+    </task>
+    <task id="LOCAL-00025" summary="branch update implemneted">
+      <option name="closed" value="true" />
+      <created>1710422599993</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710422599993</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,6 +417,9 @@
     <MESSAGE value="book update form implemented" />
     <MESSAGE value="book view form implemented" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="branchrow implemneted" />
+    <MESSAGE value="branch view implemneted" />
+    <MESSAGE value="branch update implemneted" />
+    <option name="LAST_COMMIT_MESSAGE" value="branch update implemneted" />
   </component>
 </project>

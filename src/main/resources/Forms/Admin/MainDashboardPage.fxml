@@ -26,7 +26,7 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button alignment="CENTER_RIGHT" layoutX="4.0" layoutY="510.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="262.0" text="Manage Branch">
+            <Button alignment="CENTER_RIGHT" layoutX="4.0" layoutY="510.0" mnemonicParsing="false" onAction="#ManageBranchOnActhion" prefHeight="74.0" prefWidth="262.0" text="Manage Branch">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>

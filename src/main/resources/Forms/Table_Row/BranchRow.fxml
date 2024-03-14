@@ -5,40 +5,39 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="70.0" prefWidth="1577.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.Table_Row.BranchRowController">
    <children>
-      <Label fx:id="Id" layoutX="69.0" layoutY="17.0" prefHeight="39.0" prefWidth="124.0" text="Label">
+      <Label fx:id="Id" layoutX="102.0" layoutY="17.0" prefHeight="39.0" prefWidth="124.0" text="Label">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label fx:id="name" layoutX="304.0" layoutY="21.0" prefHeight="39.0" prefWidth="241.0" text="Label">
+      <Label fx:id="name" layoutX="301.0" layoutY="21.0" prefHeight="39.0" prefWidth="241.0" text="Label">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label fx:id="locathion" layoutX="561.0" layoutY="15.0" prefHeight="39.0" prefWidth="300.0" text="Label">
+      <Label fx:id="locathion" layoutX="612.0" layoutY="14.0" prefHeight="39.0" prefWidth="208.0" text="Label">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label fx:id="email" layoutX="879.0" layoutY="14.0" prefHeight="39.0" prefWidth="275.0" text="Label">
+      <Label fx:id="email" layoutX="910.0" layoutY="14.0" prefHeight="39.0" prefWidth="287.0" text="Label">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Button layoutX="1205.0" layoutY="19.0" mnemonicParsing="false" onAction="#viewBtnOnActhion" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #4CCD99;" text="View" textFill="#f8f3f3">
+      <Button layoutX="1234.0" layoutY="19.0" mnemonicParsing="false" onAction="#viewBtnOnActhion" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #4CCD99;" text="View" textFill="#f8f3f3">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Button>
-      <Button layoutX="1317.0" layoutY="20.0" mnemonicParsing="false" onAction="#editBtnOnActhion" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #5356FF;" text="Update" textFill="#fffdfd">
+      <Button layoutX="1347.0" layoutY="20.0" mnemonicParsing="false" onAction="#editBtnOnActhion" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #5356FF;" text="Update" textFill="#fffdfd">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Button>
-      <Button layoutX="1423.0" layoutY="18.0" mnemonicParsing="false" onAction="#DeleteBtnOnActhion" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #FF204E;" text="Delete" textFill="#fffefe">
+      <Button layoutX="1455.0" layoutY="18.0" mnemonicParsing="false" onAction="#DeleteBtnOnActhion" prefHeight="40.0" prefWidth="80.0" style="-fx-background-color: #FF204E;" text="Delete" textFill="#fffefe">
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
