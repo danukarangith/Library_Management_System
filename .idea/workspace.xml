@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="branch update implemneted">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame11(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame12.png" afterDir="false" />
+    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment=" implementaion update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/BranchFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/BranchFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBranchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBranchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/BranchForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/BranchForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/UserManagerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/UserManagerFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/UserRowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/UserRowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/MainDashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/MainDashboardPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/ManageBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/ManageBook.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BranchRow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BranchRow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/BranchSave.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/BranchSave.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/UserManagerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/UserManagerForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/UserRow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/UserRow.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +186,7 @@
       <workItem from="1710308950176" duration="6861000" />
       <workItem from="1710317724236" duration="6057000" />
       <workItem from="1710355546280" duration="6329000" />
-      <workItem from="1710405802977" duration="15888000" />
+      <workItem from="1710405802977" duration="18603000" />
     </task>
     <task id="LOCAL-00001" summary="iniitial commit">
       <option name="closed" value="true" />
@@ -393,7 +388,31 @@
       <option name="project" value="LOCAL" />
       <updated>1710422599993</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="BranchFormController implemneted">
+      <option name="closed" value="true" />
+      <created>1710424191184</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710424191184</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Branch Save implemneted">
+      <option name="closed" value="true" />
+      <created>1710424244257</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1710424244257</updated>
+    </task>
+    <task id="LOCAL-00028" summary=" implementaion update">
+      <option name="closed" value="true" />
+      <created>1710424324917</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1710424324917</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,6 +439,9 @@
     <MESSAGE value="branchrow implemneted" />
     <MESSAGE value="branch view implemneted" />
     <MESSAGE value="branch update implemneted" />
-    <option name="LAST_COMMIT_MESSAGE" value="branch update implemneted" />
+    <MESSAGE value="BranchFormController implemneted" />
+    <MESSAGE value="Branch Save implemneted" />
+    <MESSAGE value=" implementaion update" />
+    <option name="LAST_COMMIT_MESSAGE" value=" implementaion update" />
   </component>
 </project>
