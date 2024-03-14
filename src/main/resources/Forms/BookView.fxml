@@ -1,14 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.Controller.BookviewFormController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="982.0" prefWidth="1736.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.BookviewFormController">
+   <children>
+      <ImageView fitHeight="982.0" fitWidth="1736.0" layoutX="-2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/Frame13(2).png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="searchBar" layoutX="220.0" layoutY="102.0" onAction="#searchOnActhion" prefHeight="47.0" prefWidth="299.0" promptText="Search Here......">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="titleText" layoutX="179.0" layoutY="304.0" prefHeight="55.0" prefWidth="343.0" />
+      <Text layoutX="181.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="AutorText" layoutX="828.0" layoutY="304.0" prefHeight="55.0" prefWidth="343.0" />
+      <Text layoutX="835.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Author">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextArea fx:id="DisText" layoutX="174.0" layoutY="504.0" prefHeight="241.0" prefWidth="1064.0" />
+      <Text layoutX="181.0" layoutY="454.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="genreText" layoutX="168.0" layoutY="826.0" prefHeight="55.0" prefWidth="343.0" />
+      <Text layoutX="178.0" layoutY="794.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Genre">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="796.0" layoutY="864.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Availability">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Label fx:id="lable" layoutX="974.0" layoutY="827.0" prefHeight="58.0" prefWidth="211.0" style="-fx-background-color: #15F5BA;" textFill="#e13232" />
+      <Text fx:id="lableText" layoutX="1047.0" layoutY="864.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="69.4072265625">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="151.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/magnifier.png" />
+         </image>
+      </ImageView>
+   </children>
 </AnchorPane>
