@@ -4,36 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="SessionFactoryConfiguration update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/AdminRegisterFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/BranchFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/AdminRegisterForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/BranchForm.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/Dashboardbutton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/BOOk_worm-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame3(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame3(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/book(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/book(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/dashboard (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/logout (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/menu.png" afterDir="false" />
+    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="dashboard implemented">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BookRowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BranchRowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBookFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBranchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveUserFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateBranchFormControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateUserFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/UserRowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/View/ViewBookFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/View/ViewBranchFormController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BookRow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BranchRow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/BranchSave.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/SaveBook.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/SaveUser.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Update/BranchUpdate.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Update/UpdateAdmin.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Update/UpdateBook.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/UserRow.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/View/Branch.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/View/ViewBook.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/viewbookpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame4(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame5(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame6(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame7(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/books-stack-of-three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/international.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/trash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/view.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a19ebfb4-b42e-41c6-9cfb-35b5ce025ade.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a19ebfb4-b42e-41c6-9cfb-35b5ce025ade/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a19ebfb4-b42e-41c6-9cfb-35b5ce025ade/storage_v2/_src_/schema/library_management_system.JytNfw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a19ebfb4-b42e-41c6-9cfb-35b5ce025ade/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a19ebfb4-b42e-41c6-9cfb-35b5ce025ade/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a19ebfb4-b42e-41c6-9cfb-35b5ce025ade/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/MemberDashboardServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/MemberDashboardServerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/MemberDashboardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/MemberDashboardServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/DashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/DashboardFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/DashboardPageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/DashboardPageFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MainDashboardPageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MainDashboardPageFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/DashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/DashboardPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/ManageBookFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/ManageBookFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/util/ChangeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/util/ChangeForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/DashboardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/DashboardForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/MainDashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/MainDashboardPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/ManageBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/ManageBook.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/MainDashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/MainDashboardPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/img/logout (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/logout(1).png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +63,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="CSS File" />
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -117,6 +136,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Update" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -203,7 +225,9 @@
       <workItem from="1710223252159" duration="3509000" />
       <workItem from="1710250798777" duration="8471000" />
       <workItem from="1710308950176" duration="6861000" />
-      <workItem from="1710317724236" duration="2842000" />
+      <workItem from="1710317724236" duration="6057000" />
+      <workItem from="1710355546280" duration="6329000" />
+      <workItem from="1710405802977" duration="8732000" />
     </task>
     <task id="LOCAL-00001" summary="iniitial commit">
       <option name="closed" value="true" />
@@ -317,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710260294852</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="dashboard implemented">
+      <option name="closed" value="true" />
+      <created>1710320708838</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710320708839</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +368,7 @@
     <MESSAGE value="register page implemented" />
     <MESSAGE value="update" />
     <MESSAGE value="SessionFactoryConfiguration update" />
-    <option name="LAST_COMMIT_MESSAGE" value="SessionFactoryConfiguration update" />
+    <MESSAGE value="dashboard implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard implemented" />
   </component>
 </project>
