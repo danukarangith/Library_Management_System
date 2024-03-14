@@ -7,7 +7,7 @@ import javafx.scene.layout.AnchorPane;
 import java.io.IOException;
 
 public class ChangeForm {
-    public static void ChangePane(AnchorPane pane , String fileName ){
+    public static void ChangePane( AnchorPane pane , String fileName ){
         Parent parent = null;
         try {
             parent = FXMLLoader.load( ChangeForm.class.getResource ( "/Forms/"+fileName ) );
