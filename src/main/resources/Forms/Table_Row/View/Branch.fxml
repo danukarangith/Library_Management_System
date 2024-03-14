@@ -1,14 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.Controller.Table_Row.View.ViewBranchFormController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="686.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.Table_Row.View.ViewBranchFormController">
+   <children>
+      <ImageView fitHeight="686.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/Frame10.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="Branch_Id" layoutX="55.0" layoutY="233.0" prefHeight="34.0" prefWidth="455.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="name" layoutX="55.0" layoutY="356.0" prefHeight="34.0" prefWidth="455.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="locationtext" layoutX="61.0" layoutY="480.0" prefHeight="34.0" prefWidth="455.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="email" layoutX="55.0" layoutY="597.0" prefHeight="34.0" prefWidth="455.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+   </children>
 </AnchorPane>
