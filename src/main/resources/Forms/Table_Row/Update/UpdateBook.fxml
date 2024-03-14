@@ -14,15 +14,30 @@
             <Image url="@../../../img/Frame7(1).png" />
          </image>
       </ImageView>
-      <Button layoutX="193.0" layoutY="606.0" mnemonicParsing="false" onAction="#updateBtnOnActhion" prefHeight="45.0" prefWidth="207.0" style="-fx-background-color: white; -fx-border-color: blue; -fx-border-width: 3;" text="Update" textFill="BLUE">
+      <Button layoutX="193.0" layoutY="606.0" mnemonicParsing="false" onAction="#updateBtnOnActhion" prefHeight="45.0" prefWidth="207.0" style="-fx-border-width: 3; -fx-background-color: #67C6E3;" text="Update" textFill="#fefeff">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Button>
-      <TextField fx:id="id" layoutX="39.0" layoutY="219.0" />
-      <TextField fx:id="available" layoutX="339.0" layoutY="219.0" />
-      <TextField fx:id="title" layoutX="56.0" layoutY="313.0" prefHeight="34.0" prefWidth="443.0" />
-      <TextField fx:id="Author" layoutX="56.0" layoutY="430.0" prefHeight="34.0" prefWidth="443.0" />
-      <TextField fx:id="Genre" layoutX="56.0" layoutY="527.0" prefHeight="34.0" prefWidth="443.0" />
+      <TextField fx:id="id" layoutX="55.0" layoutY="204.0" prefHeight="34.0" prefWidth="171.0" style="-fx-border-color: blue; -fx-border-width: 2;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="available" layoutX="339.0" layoutY="204.0" prefHeight="34.0" prefWidth="171.0" style="-fx-border-color: blue; -fx-border-width: 2;">
+         <font>
+            <Font size="16.0" />
+         </font></TextField>
+      <TextField fx:id="title" layoutX="56.0" layoutY="310.0" prefHeight="34.0" prefWidth="443.0" style="-fx-border-color: blue; -fx-border-width: 2;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="Author" layoutX="56.0" layoutY="427.0" prefHeight="34.0" prefWidth="443.0" style="-fx-border-color: blue; -fx-border-width: 2;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="Genre" layoutX="58.0" layoutY="527.0" prefHeight="34.0" prefWidth="443.0" style="-fx-border-color: blue; -fx-border-width: 2;">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></TextField>
    </children>
 </AnchorPane>

@@ -3,8 +3,6 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -26,7 +24,7 @@
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label fx:id="avilable" layoutX="982.0" layoutY="20.0" prefHeight="25.0" prefWidth="150.0" text="Label">
+      <Label fx:id="avilable" layoutX="936.0" layoutY="20.0" prefHeight="25.0" prefWidth="150.0" text="Label">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
@@ -43,20 +41,5 @@
          <font>
             <Font name="System Bold" size="14.0" />
          </font></Button>
-      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="1192.0" layoutY="-122.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../img/view.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="1300.0" layoutY="-109.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../img/edit.png" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="1453.0" layoutY="-109.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../img/trash.png" />
-         </image>
-      </ImageView>
    </children>
 </AnchorPane>

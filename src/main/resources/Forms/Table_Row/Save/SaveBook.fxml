@@ -14,10 +14,10 @@
             <Image url="@../../../img/Frame8.png" />
          </image>
       </ImageView>
-      <TextField fx:id="title" layoutX="62.0" layoutY="193.0" opacity="0.95" prefHeight="30.0" prefWidth="466.0" />
-      <TextField fx:id="dis" layoutX="62.0" layoutY="533.0" prefHeight="30.0" prefWidth="466.0" />
-      <TextField fx:id="autor" layoutX="72.0" layoutY="323.0" prefHeight="30.0" prefWidth="466.0" />
-      <TextField fx:id="Genre" layoutX="72.0" layoutY="436.0" prefHeight="30.0" prefWidth="466.0" />
+      <TextField fx:id="title" layoutX="66.0" layoutY="190.0" opacity="0.95" prefHeight="30.0" prefWidth="466.0" style="-fx-border-color: green; -fx-border-width: 2;" />
+      <TextField fx:id="dis" layoutX="65.0" layoutY="529.0" prefHeight="30.0" prefWidth="466.0" style="-fx-border-color: green; -fx-border-width: 2;" />
+      <TextField fx:id="autor" layoutX="72.0" layoutY="316.0" prefHeight="30.0" prefWidth="466.0" style="-fx-border-color: green; -fx-border-width: 2;" />
+      <TextField fx:id="Genre" layoutX="72.0" layoutY="431.0" prefHeight="30.0" prefWidth="466.0" style="-fx-border-color: green; -fx-border-width: 2;" />
       <Button layoutX="212.0" layoutY="599.0" mnemonicParsing="false" onAction="#saveBtnOnActhion" prefHeight="39.0" prefWidth="172.0" style="-fx-background-color: white; -fx-border-color: green; -fx-border-width: 3;" text="Save" textFill="GREEN">
          <font>
             <Font name="System Bold" size="18.0" />

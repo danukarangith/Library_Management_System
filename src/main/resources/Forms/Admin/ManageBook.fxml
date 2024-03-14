@@ -13,7 +13,6 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane prefHeight="982.0" prefWidth="1736.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.AdminController.ManageBookFormController">
    <children>
       <Text layoutX="626.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manage Books">
@@ -52,7 +51,7 @@
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
-      <Label layoutX="1243.0" layoutY="288.0" prefHeight="25.0" prefWidth="120.0" text="Action" textFill="#fffefe">
+      <Label layoutX="1318.0" layoutY="288.0" prefHeight="25.0" prefWidth="120.0" text="Action" textFill="#fffefe">
          <font>
             <Font name="System Bold" size="24.0" />
          </font>

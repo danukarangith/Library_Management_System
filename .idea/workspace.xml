@@ -4,55 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="dashboard implemented">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BookRowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BranchRowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBookFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBranchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveUserFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateBranchFormControler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateUserFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/UserRowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/View/ViewBookFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/View/ViewBranchFormController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BookRow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BranchRow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/BranchSave.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/SaveBook.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/SaveUser.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Update/BranchUpdate.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Update/UpdateAdmin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Update/UpdateBook.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/UserRow.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/View/Branch.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/View/ViewBook.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Styles/viewbookpage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame4(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame5(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame6(2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame7(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/books-stack-of-three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/group.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/international.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/trash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/view.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/DashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/DashboardFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/ManageBookFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/ManageBookFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/util/ChangeForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/util/ChangeForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/DashboardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/DashboardForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/MainDashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/MainDashboardPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BookRowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BookRowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/View/ViewBookFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/View/ViewBookFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/ManageBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/ManageBook.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/MainDashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/MainDashboardPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/img/logout (1).png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/img/logout(1).png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BookRow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BookRow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/SaveBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Save/SaveBook.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Update/UpdateBook.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/Update/UpdateBook.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +186,7 @@
       <workItem from="1710308950176" duration="6861000" />
       <workItem from="1710317724236" duration="6057000" />
       <workItem from="1710355546280" duration="6329000" />
-      <workItem from="1710405802977" duration="8732000" />
+      <workItem from="1710405802977" duration="10336000" />
     </task>
     <task id="LOCAL-00001" summary="iniitial commit">
       <option name="closed" value="true" />
@@ -349,7 +308,55 @@
       <option name="project" value="LOCAL" />
       <updated>1710320708839</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="dashbord form implemented">
+      <option name="closed" value="true" />
+      <created>1710416499459</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710416499459</updated>
+    </task>
+    <task id="LOCAL-00017" summary="dashbord form implemented">
+      <option name="closed" value="true" />
+      <created>1710416518530</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710416518530</updated>
+    </task>
+    <task id="LOCAL-00018" summary="book save form implemented">
+      <option name="closed" value="true" />
+      <created>1710416561485</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710416561485</updated>
+    </task>
+    <task id="LOCAL-00019" summary="book update form implemented">
+      <option name="closed" value="true" />
+      <created>1710416606322</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710416606322</updated>
+    </task>
+    <task id="LOCAL-00020" summary="book view form implemented">
+      <option name="closed" value="true" />
+      <created>1710416637192</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1710416637192</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update">
+      <option name="closed" value="true" />
+      <created>1710416661764</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1710416661764</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,9 +373,13 @@
     <MESSAGE value="registerform design" />
     <MESSAGE value="hireachy update" />
     <MESSAGE value="register page implemented" />
-    <MESSAGE value="update" />
     <MESSAGE value="SessionFactoryConfiguration update" />
     <MESSAGE value="dashboard implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="dashboard implemented" />
+    <MESSAGE value="dashbord form implemented" />
+    <MESSAGE value="book save form implemented" />
+    <MESSAGE value="book update form implemented" />
+    <MESSAGE value="book view form implemented" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

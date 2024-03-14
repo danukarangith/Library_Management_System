@@ -58,7 +58,7 @@ public class BookRowController {
     }
 
     public void editBtnOnActhion(ActionEvent actionEvent) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(BookRowController.class.getResource("/Forms/Table_Row/UpDate/UpdateBook.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(BookRowController.class.getResource("/Forms/Table_Row/Update/UpdateBook.fxml"));
         Parent parent = fxmlLoader.load();
         UpdateBook bookRowController = fxmlLoader.getController();
         bookRowController.setData(bookDto);
