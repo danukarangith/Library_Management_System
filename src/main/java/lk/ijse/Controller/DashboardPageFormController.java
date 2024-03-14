@@ -15,9 +15,9 @@ import lk.ijse.util.Validation;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class DashboardPageFormController  {
+public class DashboardPageFormController implements Initializable  {
 
-/*    public TextField emailText;
+    public TextField emailText;
     public TextField UsernameText;
     @FXML
     private PasswordField PasswordFild;
@@ -25,14 +25,14 @@ public class DashboardPageFormController  {
     @FXML
     private TextField PasswordTextFild;
 
-    @FXML
-    private Button viewPass;
+//    @FXML
+//    private Button viewPass;
 
     Boolean flag = false;
 
     private final MemberDashboardServer memberDashboardServer = (MemberDashboardServer) lk.ijse.Bo.ServiceFactor.getBoFactory().getBo(ServiceFactor.BoType.MemberDashBoard);
 
-    @FXML
+   /* @FXML
     void viewPassOnActhion(ActionEvent event) {
         String Password = PasswordFild.getText();
         String TExtPass = PasswordTextFild.getText();
@@ -49,7 +49,7 @@ public class DashboardPageFormController  {
             PasswordFild.setText(TExtPass);
             flag = false;
         }
-    }
+    }*/
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -96,5 +96,5 @@ public class DashboardPageFormController  {
         else {
             new Alert(Alert.AlertType.INFORMATION,"Please Enter Valid Data").show();
         }
-    }*/
+    }
 }

@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment=" implementaion update">
+    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="dashboard update">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame13(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame9(2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/magnifier.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/UserManagerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/UserManagerFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/UserRowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/UserRowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/MainDashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/MainDashboardPage.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/UserManagerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/UserManagerForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/UserRow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/UserRow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/BookviewFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/BookviewFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/DashboardPageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/DashboardPageFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MainDashboardPageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MainDashboardPageFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/BookView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/BookView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/DashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/DashboardPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/MainDashboardPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/MainDashboardPage.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +189,7 @@
       <workItem from="1710308950176" duration="6861000" />
       <workItem from="1710317724236" duration="6057000" />
       <workItem from="1710355546280" duration="6329000" />
-      <workItem from="1710405802977" duration="18603000" />
+      <workItem from="1710405802977" duration="22505000" />
     </task>
     <task id="LOCAL-00001" summary="iniitial commit">
       <option name="closed" value="true" />
@@ -412,7 +415,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710424324917</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="  User Manage implemented">
+      <option name="closed" value="true" />
+      <created>1710427697391</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1710427697391</updated>
+    </task>
+    <task id="LOCAL-00030" summary="dashboard update">
+      <option name="closed" value="true" />
+      <created>1710427729460</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1710427729460</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,6 +461,8 @@
     <MESSAGE value="BranchFormController implemneted" />
     <MESSAGE value="Branch Save implemneted" />
     <MESSAGE value=" implementaion update" />
-    <option name="LAST_COMMIT_MESSAGE" value=" implementaion update" />
+    <MESSAGE value="  User Manage implemented" />
+    <MESSAGE value="dashboard update" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard update" />
   </component>
 </project>
