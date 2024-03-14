@@ -20,7 +20,7 @@
             <Font name="System Bold" size="48.0" />
          </font>
       </Text>
-      <TextField fx:id="search" layoutX="112.0" layoutY="131.0" onAction="#searchOnActhion" prefHeight="42.0" prefWidth="355.0" promptText="Search Here....">
+      <TextField fx:id="search" layoutX="86.0" layoutY="131.0" onAction="#searchOnActhion" prefHeight="42.0" prefWidth="355.0" promptText="Search Here....">
          <font>
             <Font size="18.0" />
          </font>
@@ -30,7 +30,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Button>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="74.0" layoutX="71.0" layoutY="267.0" stroke="BLACK" strokeType="INSIDE" width="1600.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="74.0" layoutX="71.0" layoutY="267.0" stroke="BLACK" strokeType="INSIDE" width="1531.0" />
       <Label layoutX="187.0" layoutY="291.0" prefHeight="25.0" prefWidth="120.0" text="Id" textFill="#f5eeee">
          <font>
             <Font name="System Bold" size="24.0" />
@@ -57,11 +57,11 @@
          </font>
       </Label>
       <CheckBox fx:id="CheckBox" layoutX="118.0" layoutY="281.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" />
-      <ScrollPane layoutX="69.0" layoutY="374.0" prefHeight="573.0" prefWidth="1609.0">
+      <ScrollPane layoutX="69.0" layoutY="374.0" prefHeight="573.0" prefWidth="1550.0">
          <content>
             <AnchorPane prefHeight="572.0" prefWidth="1591.0">
                <children>
-                  <VBox fx:id="tableLoad" layoutX="-1.0" layoutY="2.0" prefHeight="573.0" prefWidth="1588.0" />
+                  <VBox fx:id="tableLoad" layoutX="-1.0" layoutY="2.0" prefHeight="573.0" prefWidth="1539.0" />
                </children>
             </AnchorPane>
          </content>
