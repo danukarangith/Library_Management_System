@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="686.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.Table_Row.View.ViewBookFormController">
+   <children>
+      <ImageView fitHeight="686.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../img/Frame6(2).png" />
+         </image>
+      </ImageView>
+      <Label fx:id="Book_Id" layoutX="52.0" layoutY="229.0" prefHeight="30.0" prefWidth="98.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="available" layoutX="342.0" layoutY="229.0" prefHeight="30.0" prefWidth="98.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="title" layoutX="58.0" layoutY="358.0" prefHeight="39.0" prefWidth="444.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="author" layoutX="58.0" layoutY="484.0" prefHeight="39.0" prefWidth="444.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="genre" layoutX="58.0" layoutY="597.0" prefHeight="39.0" prefWidth="444.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
