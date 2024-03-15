@@ -6,8 +6,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import lk.ijse.Bo.BranchService;
-import lk.ijse.Bo.ServiceFactor;
+import lk.ijse.Service.BranchService;
+import lk.ijse.Service.ServiceFactor;
 import lk.ijse.Controller.Table_Row.BranchRowController;
 import lk.ijse.Dto.BranchDto;
 

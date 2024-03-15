@@ -3,8 +3,8 @@ package lk.ijse.Controller.Table_Row.Update;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Alert;
 import javafx.scene.control.TextField;
-import lk.ijse.Bo.ManagebookService;
-import lk.ijse.Bo.ServiceFactor;
+import lk.ijse.Service.ManagebookService;
+import lk.ijse.Service.ServiceFactor;
 import lk.ijse.Dto.BookDto;
 import lk.ijse.util.Validation;
 

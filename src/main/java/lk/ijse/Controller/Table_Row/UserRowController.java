@@ -4,8 +4,8 @@ import javafx.event.ActionEvent;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
-import lk.ijse.Bo.ServiceFactor;
-import lk.ijse.Bo.UserManageService;
+import lk.ijse.Service.ServiceFactor;
+import lk.ijse.Service.UserManageService;
 import lk.ijse.Dto.MemberDto;
 
 public class UserRowController {

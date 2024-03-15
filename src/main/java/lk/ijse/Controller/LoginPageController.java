@@ -9,9 +9,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
-import lk.ijse.Bo.AdminService;
-import lk.ijse.Bo.MemberService;
-import lk.ijse.Bo.ServiceFactor;
+import lk.ijse.Service.AdminService;
+import lk.ijse.Service.MemberService;
+import lk.ijse.Service.ServiceFactor;
 
 import java.io.IOException;
 import java.net.URL;

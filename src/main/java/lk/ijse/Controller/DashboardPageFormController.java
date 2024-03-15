@@ -4,11 +4,10 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
-import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import lk.ijse.Bo.MemberDashboardServer;
-import lk.ijse.Bo.ServiceFactor;
+import lk.ijse.Service.MemberDashboardServer;
+import lk.ijse.Service.ServiceFactor;
 import lk.ijse.Dto.MemberDto;
 import lk.ijse.util.Validation;
 
@@ -19,20 +18,21 @@ public class DashboardPageFormController implements Initializable  {
 
     public TextField emailText;
     public TextField UsernameText;
+//    public Text bookCount;
     @FXML
     private PasswordField PasswordFild;
 
     @FXML
     private TextField PasswordTextFild;
 
-//    @FXML
-//    private Button viewPass;
+/*    @FXML
+    private Button viewPass;*/
 
     Boolean flag = false;
 
-    private final MemberDashboardServer memberDashboardServer = (MemberDashboardServer) lk.ijse.Bo.ServiceFactor.getBoFactory().getBo(ServiceFactor.BoType.MemberDashBoard);
+    private final MemberDashboardServer memberDashboardServer = (MemberDashboardServer) lk.ijse.Service.ServiceFactor.getBoFactory().getBo(ServiceFactor.BoType.MemberDashBoard);
 
-   /* @FXML
+  /*  @FXML
     void viewPassOnActhion(ActionEvent event) {
         String Password = PasswordFild.getText();
         String TExtPass = PasswordTextFild.getText();
@@ -55,13 +55,17 @@ public class DashboardPageFormController implements Initializable  {
     public void initialize(URL url, ResourceBundle resourceBundle) {
         PasswordTextFild.setVisible(false);
         SetData();
+       // getBookCount();
     }
 
     int Id = 0;
     String name = "";
 
+    MemberDto data;
+
     void SetData(){
         MemberDto data = memberDashboardServer.getData(LoginPageController.memberUsername);
+        this.data = data;
         UsernameText.setText(data.getUsername());
         emailText.setText(data.getEmail());
         PasswordTextFild.setText(data.getPassword());
@@ -90,11 +94,18 @@ public class DashboardPageFormController implements Initializable  {
 
     void ChangePassword(){
         if (Validation.isValidEmail(emailText.getText())){
-            memberDashboardServer.Update(new MemberDto(Id,name,UsernameText.getText(),PasswordFild.getText(),emailText.getText()));
+            data.setPassword(PasswordFild.getText());
+            System.out.println(data);
+            memberDashboardServer.Update(data);
             new Alert(Alert.AlertType.INFORMATION,"Password Changed").show();
         }
         else {
             new Alert(Alert.AlertType.INFORMATION,"Please Enter Valid Data").show();
         }
     }
+
+   /* void getBookCount(){
+        int count = memberDashboardServer.BookCount(LoginPageController.memberUsername);
+        bookCount.setText(String.valueOf(count));
+    }*/
 }

@@ -2,8 +2,8 @@ package lk.ijse.Controller.Table_Row;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.Label;
-import lk.ijse.Bo.BorrowBookService;
-import lk.ijse.Bo.ServiceFactor;
+import lk.ijse.Service.BorrowBookService;
+import lk.ijse.Service.ServiceFactor;
 import lk.ijse.Controller.BorrowBookPageFormController;
 import lk.ijse.Dto.BookDto;
 

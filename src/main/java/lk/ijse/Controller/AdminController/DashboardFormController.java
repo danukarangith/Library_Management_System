@@ -4,14 +4,13 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import lk.ijse.Bo.Custom.AdminServiceImpl;
-import lk.ijse.Bo.DashboardService;
-import lk.ijse.Bo.ServiceFactor;
+import lk.ijse.Service.Custom.AdminServiceImpl;
+import lk.ijse.Service.DashboardService;
+import lk.ijse.Service.ServiceFactor;
 import lk.ijse.Controller.Table_Row.Update.UpdateUserFormController;
 import lk.ijse.Dto.AdminDto;
 
