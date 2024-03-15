@@ -12,6 +12,8 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "Book")
@@ -45,14 +47,16 @@ public class Books {
     @JoinColumn(name = "admin_id")
     private Admin admin;
 
-    public BookDto toDto() {
-        return new BookDto(
-                this.id,
-                this.title,
-                this.autor,
-                this.dis,
-                this.genre,
-                this.available
-        );
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY, mappedBy = "book")
+    private List<Book_Transaction> details = new ArrayList<>();
+
+    public Books(int id, String title, String autor, String dis, String genre, String available, Admin admin) {
+        this.id = id;
+        this.title = title;
+        this.autor = autor;
+        this.dis = dis;
+        this.genre = genre;
+        this.available = available;
+        this.admin = admin;
     }
 }

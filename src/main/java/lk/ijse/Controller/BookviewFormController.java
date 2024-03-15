@@ -21,6 +21,7 @@ import java.util.Set;
 
 public class BookviewFormController implements Initializable {
 
+
     @FXML
     private TextField AutorText;
 
@@ -54,7 +55,7 @@ public class BookviewFormController implements Initializable {
         DisText.setText(bookDto.getDis());
         genreText.setText(bookDto.getGenre());
 
-        if(bookDto.getAvailable().equals("yes")){
+        if(bookDto.getAvailable().equals("Yes")){
             lable.setStyle("-fx-background-color: green");
             lableText.setText("Yes");
         }
