@@ -37,9 +37,9 @@ public class MainDashboardPageFormController implements Initializable {
 //        ChangeForm.ChangePane(ChangePane,"ReturnBookPage.fxml");
 //    }
 //
-//    public void BookBorrowBtnOnActhion(ActionEvent actionEvent) {
-//        ChangeForm.ChangePane(ChangePane,"BorrowBookPage.fxml");
-//    }
+    public void BookBorrowBtnOnActhion(ActionEvent actionEvent) {
+        ChangeForm.ChangePane(ChangePane,"BorrowBoookPage.fxml");
+    }
 
     public void ExitBtnOnActhion(ActionEvent actionEvent) {
         System.exit(0);

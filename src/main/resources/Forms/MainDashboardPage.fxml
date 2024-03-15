@@ -21,7 +21,7 @@
                   <Font name="System Bold" size="22.0" />
                </font>
             </Button>
-            <Button alignment="CENTER_RIGHT" layoutX="-3.0" layoutY="544.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="262.0" stylesheets="@../Styles/Dashboardbutton.css" text="Borrow Books">
+            <Button alignment="CENTER_RIGHT" layoutX="-3.0" layoutY="544.0" mnemonicParsing="false" onAction="#BookBorrowBtnOnActhion" prefHeight="74.0" prefWidth="262.0" stylesheets="@../Styles/Dashboardbutton.css" text="Borrow Books">
                <font>
                   <Font name="System Bold" size="22.0" />
                </font>
