@@ -2,9 +2,7 @@ package lk.ijse.Dao.Custom;
 
 import lk.ijse.Dao.MemberRepository;
 import lk.ijse.Entity.Member;
-import lk.ijse.util.SessionFactoryConfiguration;
 import org.hibernate.Session;
-import org.hibernate.Transaction;
 import org.hibernate.query.Query;
 
 import java.util.ArrayList;
@@ -15,10 +13,16 @@ public class MemberRepositoryImpl implements MemberRepository {
 
     @Override
     public Member getData ( String Id ) {
+        System.out.println(Id);
         String hql = "FROM Member WHERE username = :username";
         Query<Member> query = session.createQuery(hql, Member.class);
-        query.setParameter("username", Id);
+        query.setParameter("username",Id);
         return query.uniqueResult();
+    }
+    @Override
+    public Member getId(int id){
+        System.out.println(id);
+        return session.get(Member.class, id);
     }
 
     @Override

@@ -16,22 +16,27 @@ import java.time.temporal.ChronoUnit;
 import java.util.List;
 
 public class ReturnBookFormController {
-    @FXML
-    private TextField BookCount;
+    public TextField Date;
+//    @FXML
+//    private TextField BookCount;
 
-    @FXML
-    private TextField Date;
+   // @FXML
+//    private TextField Date;
 
-    @FXML
-    private ComboBox<String> MemberIdCombo;
-
-    @FXML
-    private TextField Payment;
-
-    @FXML
-    private TextField ReturnData;
+//    @FXML
+//    private ComboBox<String> MemberIdCombo;
+//
+//    @FXML
+//    private TextField Payment;
+//
+//    @FXML
+//    private TextField ReturnData;
 
     public final ReturnBookService returnBookServiceI = (ReturnBookService) ServiceFactor.getBoFactory().getBo(ServiceFactor.BoType.Return_Book);
+    public TextField ReturnData;
+    public TextField BookCount;
+    public TextField Payment;
+    public ComboBox <String> MemberIdCombo;
 
     public void initialize(){
         List<Integer> allId = returnBookServiceI.getAllId();

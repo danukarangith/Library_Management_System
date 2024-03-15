@@ -14,6 +14,7 @@ public class BorrowBookRepositoryImpl implements BorrowBookRepository {
     private Session session;
     @Override
     public BorrowBook getData(String Id) {
+        System.out.println(Id);
         Query query = session.createQuery("from BorrowBook where id = :id");
         query.setParameter("id", 9);
         return (BorrowBook) query.uniqueResult();

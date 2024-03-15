@@ -73,7 +73,8 @@ public class ReturnBookServiceImpl implements ReturnBookService {
         session = SessionFactoryConfiguration.getInstance().getSession();
         int m = GetIdNumber.getIdNumber("M", value);
         memberRepository.SetSession(session);
-        Member data1 = memberRepository.getData(""+m);
+        System.out.println(m);
+        Member data1 = memberRepository.getId(m);
 
         session.close();
 
