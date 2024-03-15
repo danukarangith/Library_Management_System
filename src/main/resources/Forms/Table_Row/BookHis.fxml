@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.Controller.Table_Row.HisBookRowFormController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="70.0" prefWidth="1441.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.Table_Row.HisBookRowFormController">
+   <children>
+      <Label fx:id="Book_ID" layoutX="77.0" layoutY="12.0" prefHeight="43.0" prefWidth="79.0" text="Label">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="title" layoutX="324.0" layoutY="14.0" prefHeight="43.0" prefWidth="484.0" text="Label">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="returnBook" layoutX="924.0" layoutY="16.0" prefHeight="43.0" prefWidth="332.0" text="Label">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>

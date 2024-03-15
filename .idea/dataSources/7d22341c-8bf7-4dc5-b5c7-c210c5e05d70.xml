@@ -1133,7 +1133,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     </schema>
     <schema id="312" parent="1" name="library_management_system">
       <Current>1</Current>
-      <LastIntrospectionLocalTimestamp>2024-03-13.12:15:01</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-03-15.07:50:33</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="313" parent="1" name="debian-sys-maint">
@@ -1166,154 +1166,238 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Engine>MyISAM</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="320" parent="312" name="Branch">
+    <table id="320" parent="312" name="Book_Transaction">
       <Engine>MyISAM</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <table id="321" parent="312" name="Member">
+    <table id="321" parent="312" name="Borrow_Book">
       <Engine>MyISAM</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="322" parent="318" name="Admin_Id">
-      <AutoIncrement>1</AutoIncrement>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="323" parent="318" name="Email">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="324" parent="318" name="Name">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="325" parent="318" name="Password">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <column id="326" parent="318" name="Username">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>5</Position>
-    </column>
-    <index id="327" parent="318" name="PRIMARY">
-      <ColNames>Admin_Id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="328" parent="318" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="329" parent="319" name="Book_Id">
-      <AutoIncrement>1</AutoIncrement>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="330" parent="319" name="Autor">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="331" parent="319" name="Available">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="332" parent="319" name="Dis">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <column id="333" parent="319" name="Genre">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>5</Position>
-    </column>
-    <column id="334" parent="319" name="Title">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>6</Position>
-    </column>
-    <column id="335" parent="319" name="admin_id">
-      <DasType>int|0s</DasType>
-      <Position>7</Position>
-    </column>
-    <index id="336" parent="319" name="PRIMARY">
-      <ColNames>Book_Id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="337" parent="319" name="FK7u5qhfws0bvvqn6kh1y8bck30">
-      <ColNames>admin_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="338" parent="319" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="339" parent="320" name="Branch_Id">
-      <AutoIncrement>1</AutoIncrement>
-      <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="340" parent="320" name="Email">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="341" parent="320" name="Branch_Location">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="342" parent="320" name="Branch_Name">
-      <DasType>varchar(255)|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <column id="343" parent="320" name="admin_id">
-      <DasType>int|0s</DasType>
-      <Position>5</Position>
-    </column>
-    <index id="344" parent="320" name="PRIMARY">
-      <ColNames>Branch_Id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="345" parent="320" name="FKh5eswgrnc6hwr9hdgpbns4ku1">
-      <ColNames>admin_id</ColNames>
-      <Type>btree</Type>
-    </index>
-    <key id="346" parent="320" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <column id="347" parent="321" name="Member_Id">
+    <table id="322" parent="312" name="Branch">
+      <Engine>MyISAM</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="323" parent="312" name="Member">
+      <Engine>MyISAM</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="324" parent="318" name="Admin_Id">
       <AutoIncrement>2</AutoIncrement>
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="348" parent="321" name="Email">
+    <column id="325" parent="318" name="Email">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="349" parent="321" name="Full_Name">
+    <column id="326" parent="318" name="Name">
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="350" parent="321" name="Password">
+    <column id="327" parent="318" name="Password">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="351" parent="321" name="Username">
+    <column id="328" parent="318" name="Username">
       <DasType>varchar(255)|0s</DasType>
       <Position>5</Position>
     </column>
-    <index id="352" parent="321" name="PRIMARY">
+    <index id="329" parent="318" name="PRIMARY">
+      <ColNames>Admin_Id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="330" parent="318" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="331" parent="319" name="Book_Id">
+      <AutoIncrement>4</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="332" parent="319" name="Autor">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="333" parent="319" name="Available">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="334" parent="319" name="Dis">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="335" parent="319" name="Genre">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="336" parent="319" name="Title">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="337" parent="319" name="admin_id">
+      <DasType>int|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="338" parent="319" name="PRIMARY">
+      <ColNames>Book_Id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="339" parent="319" name="FK7u5qhfws0bvvqn6kh1y8bck30">
+      <ColNames>admin_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="340" parent="319" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="341" parent="320" name="id">
+      <AutoIncrement>5</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="342" parent="320" name="Book_Id">
+      <DasType>int|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="343" parent="320" name="Borrow_id">
+      <DasType>int|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <index id="344" parent="320" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="345" parent="320" name="FK5j9wntoh5wcd4ft3crshti2rf">
+      <ColNames>Book_Id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <index id="346" parent="320" name="FKemk0m0d9q2k09kq55qvwfxy7g">
+      <ColNames>Borrow_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="347" parent="320" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="348" parent="321" name="Borrow_id">
+      <AutoIncrement>8</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="349" parent="321" name="transaction_added">
+      <DasType>datetime|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="350" parent="321" name="due_date">
+      <DasType>date|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="351" parent="321" name="Payment">
+      <DasType>double|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="352" parent="321" name="book_qty">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <column id="353" parent="321" name="transaction_status">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>6</Position>
+    </column>
+    <column id="354" parent="321" name="member_id">
+      <DasType>int|0s</DasType>
+      <Position>7</Position>
+    </column>
+    <index id="355" parent="321" name="PRIMARY">
+      <ColNames>Borrow_id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="356" parent="321" name="FK8s1ptqq3797sb4g84f0b8q3m">
+      <ColNames>member_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="357" parent="321" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="358" parent="322" name="Branch_Id">
+      <AutoIncrement>4</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="359" parent="322" name="Email">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="360" parent="322" name="Branch_Location">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="361" parent="322" name="Branch_Name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="362" parent="322" name="admin_id">
+      <DasType>int|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="363" parent="322" name="PRIMARY">
+      <ColNames>Branch_Id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="364" parent="322" name="FKh5eswgrnc6hwr9hdgpbns4ku1">
+      <ColNames>admin_id</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="365" parent="322" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="366" parent="323" name="Member_Id">
+      <AutoIncrement>3</AutoIncrement>
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="367" parent="323" name="Email">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="368" parent="323" name="Full_Name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="369" parent="323" name="Password">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <column id="370" parent="323" name="Username">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>5</Position>
+    </column>
+    <index id="371" parent="323" name="PRIMARY">
       <ColNames>Member_Id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="353" parent="321" name="PRIMARY">
+    <key id="372" parent="323" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>

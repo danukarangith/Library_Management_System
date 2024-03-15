@@ -3,68 +3,74 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<AnchorPane prefHeight="982.0" prefWidth="1736.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.BorrowBookPageFormController">
+<AnchorPane prefHeight="982.0" prefWidth="1736.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.BorrowBookPageFormController">
    <children>
-      <Text layoutX="630.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Borrow Books">
+      <Text layoutX="589.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Borrow Books">
          <font>
             <Font name="System Bold" size="48.0" />
          </font>
       </Text>
-      <Text fill="#16a3ee" layoutX="174.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Id">
+      <Text fill="#16a3ee" layoutX="124.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your Id">
          <font>
             <Font name="System Bold" size="28.0" />
          </font>
       </Text>
-      <TextField fx:id="memberIdText" layoutX="174.0" layoutY="257.0" prefHeight="42.0" prefWidth="244.0" styleClass="text-field1" stylesheets="@../Styles/viewbook.css" />
+      <TextField fx:id="memberIdText" layoutX="121.0" layoutY="257.0" prefHeight="42.0" prefWidth="244.0" styleClass="text-field1" stylesheets="@../Styles/viewbook.css" />
       <Text fill="#16a3ee" layoutX="1025.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Title">
          <font>
             <Font name="System Bold" size="28.0" />
          </font>
       </Text>
       <TextField fx:id="SearchBook" layoutX="1012.0" layoutY="253.0" prefHeight="42.0" prefWidth="244.0" styleClass="text-field1" stylesheets="@../Styles/viewbook.css" />
-      <Text fill="#16a3ee" layoutX="190.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date">
+      <Text fill="#16a3ee" layoutX="129.0" layoutY="392.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date">
          <font>
             <Font name="System Bold" size="28.0" />
          </font>
       </Text>
-      <TextField fx:id="Date" layoutX="175.0" layoutY="428.0" prefHeight="42.0" prefWidth="244.0" styleClass="text-field1" stylesheets="@../Styles/viewbook.css" />
+      <TextField fx:id="Date" layoutX="129.0" layoutY="428.0" prefHeight="42.0" prefWidth="244.0" styleClass="text-field1" stylesheets="@../Styles/viewbook.css" />
       <Text fill="#16a3ee" layoutX="1023.0" layoutY="383.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Return Date">
          <font>
             <Font name="System Bold" size="28.0" />
          </font>
       </Text>
       <TextField fx:id="Return_Book" layoutX="1009.0" layoutY="430.0" prefHeight="42.0" prefWidth="244.0" styleClass="text-field1" stylesheets="@../Styles/viewbook.css" />
-      <Button layoutX="1435.0" layoutY="540.0" mnemonicParsing="false" onAction="#addBtnOnActhion" prefHeight="52.0" prefWidth="144.0" text="Add">
+      <Button layoutX="1435.0" layoutY="540.0" mnemonicParsing="false" onAction="#addBtnOnActhion" prefHeight="52.0" prefWidth="144.0" style="-fx-background-color: #4CCD99; -fx-border-color: black;" text="Add" textFill="#fff9f9">
          <font>
-            <Font name="System Bold" size="18.0" />
+            <Font name="System Bold" size="22.0" />
          </font>
       </Button>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="75.0" layoutX="437.0" layoutY="524.0" stroke="BLACK" strokeType="INSIDE" width="789.0" />
-      <ScrollPane layoutX="436.0" layoutY="617.0" prefHeight="335.0" prefWidth="810.0">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="75.0" layoutX="380.0" layoutY="524.0" stroke="BLACK" strokeType="INSIDE" width="789.0" />
+      <ScrollPane layoutX="372.0" layoutY="601.0" prefHeight="335.0" prefWidth="810.0">
          <content>
             <AnchorPane prefHeight="340.0" prefWidth="791.0">
                <children>
-                  <VBox fx:id="vBox" layoutX="-2.0" layoutY="-3.0" prefHeight="332.0" prefWidth="794.0" />
+                  <VBox fx:id="vBox" layoutX="-2.0" layoutY="8.0" prefHeight="332.0" prefWidth="794.0" />
                </children>
             </AnchorPane>
          </content>
       </ScrollPane>
-      <Text fill="#fffafa" layoutX="764.0" layoutY="576.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
+      <Text fill="#fffafa" layoutX="712.0" layoutY="576.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Title">
          <font>
             <Font name="System Bold" size="28.0" />
          </font>
       </Text>
-      <Button layoutX="1437.0" layoutY="837.0" mnemonicParsing="false" onAction="#gtOnActhion" prefHeight="52.0" prefWidth="144.0" text="Get">
+      <Button layoutX="1437.0" layoutY="837.0" mnemonicParsing="false" onAction="#gtOnActhion" prefHeight="52.0" prefWidth="144.0" style="-fx-background-color: #836FFF; -fx-border-color: black;" text="Get" textFill="#fffefe">
          <font>
-            <Font name="System Bold" size="18.0" />
+            <Font name="System Bold" size="22.0" />
          </font>
       </Button>
+      <ImageView fitHeight="125.0" fitWidth="150.0" layoutX="432.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/book(3).png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
