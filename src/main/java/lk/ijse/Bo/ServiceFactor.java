@@ -3,6 +3,7 @@ package lk.ijse.Bo;
 import lk.ijse.Bo.Custom.*;
 
 public class ServiceFactor {
+
     private static ServiceFactor serviceFactor;
     private ServiceFactor(){
 
@@ -13,7 +14,7 @@ public class ServiceFactor {
     }
 
     public enum BoType{
-        Member,Admin,Search_Book,Register,Manage_Book,UserMange,Branch,DashBoard,MemberDashBoard,Admin_Register
+        Member,Admin,Search_Book,Register,Manage_Book,UserMange,Branch,DashBoard,MemberDashBoard,Admin_Register,Borrow_Book,Return_Book,forgetPassword
     }
 
     public SuperService getBo(BoType boType){
@@ -38,6 +39,12 @@ public class ServiceFactor {
                 return new MemberDashboardServerImpl();
             case Admin_Register:
                 return new AdminRegisterServiceImpl();
+            case Borrow_Book:
+                return new BorrowBookServiceImpl();
+            case Return_Book:
+                return new ReturnBookServiceImpl();
+//            case forgetPassword:
+//                return new ForgetMailServiceImpl();
             default:
                 return null;
         }

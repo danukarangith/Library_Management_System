@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.Controller.Table_Row.BorrowBookRowController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="50.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.Table_Row.BorrowBookRowController">
+   <children>
+      <Label fx:id="Id" layoutX="38.0" layoutY="10.0" prefHeight="28.0" prefWidth="73.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="Title" layoutX="242.0" layoutY="11.0" prefHeight="28.0" prefWidth="229.0" text="Label">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="615.0" layoutY="10.0" mnemonicParsing="false" onAction="#deleteBtnOnActhion" prefHeight="28.0" prefWidth="84.0" style="-fx-background-color: #FF204E;" text="Delete" textFill="#fcf8f8">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
 </AnchorPane>
