@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.Controller.AdminController.ReturnBookFormController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="982.0" prefWidth="1736.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.Controller.AdminController.ReturnBookFormController">
+   <children>
+      <Text layoutX="627.0" layoutY="85.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Return Books">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Text>
+      <Text fill="#2559da" layoutX="142.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Member ID">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#2559da" layoutX="529.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <TextField fx:id="Date" layoutX="515.0" layoutY="272.0" prefHeight="55.0" prefWidth="306.0" />
+      <Text fill="#2559da" layoutX="143.0" layoutY="436.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Return Date">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#2559da" layoutX="531.0" layoutY="433.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book Count">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#2559da" layoutX="143.0" layoutY="645.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+      <TextField fx:id="ReturnData" layoutX="145.0" layoutY="480.0" prefHeight="55.0" prefWidth="306.0" />
+      <TextField fx:id="BookCount" layoutX="513.0" layoutY="475.0" prefHeight="55.0" prefWidth="306.0" />
+      <TextField fx:id="Payment" layoutX="138.0" layoutY="701.0" prefHeight="55.0" prefWidth="306.0" />
+      <ImageView fitHeight="705.0" fitWidth="889.0" layoutX="828.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/unnamed.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="572.0" layoutY="690.0" mnemonicParsing="false" onAction="#returnBtnOnActhion" prefHeight="61.0" prefWidth="198.0" style="-fx-background-color: #387ADF; -fx-border-color: black;" text="Return" textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="MemberIdCombo" layoutX="144.0" layoutY="267.0" onAction="#ComboOnActhion" prefHeight="55.0" prefWidth="306.0" />
+   </children>
 </AnchorPane>
