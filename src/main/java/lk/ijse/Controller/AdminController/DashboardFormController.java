@@ -87,4 +87,17 @@ public class DashboardFormController {
             throw new RuntimeException(e);
         }
     }
-}
+    public void addbuttonOnAction(ActionEvent actionEvent) {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/Forms/Admin/AdminRegisterForm.fxml"));
+        try {
+            fxmlLoader.load();
+            AdminRegisterFormController controller = fxmlLoader.getController();
+           // controller.setData();
+            Stage stage = new Stage();
+            stage.setScene(new Scene(fxmlLoader.getRoot()));
+            stage.show();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+
+        }
+    }}
