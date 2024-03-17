@@ -4,75 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="return book transaction implemented">
+    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="Final test and bug fixed">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame8(1).png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d22341c-8bf7-4dc5-b5c7-c210c5e05d70.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d22341c-8bf7-4dc5-b5c7-c210c5e05d70.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/AdminRegisterservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/AdminRegisterservice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/BorrowBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/BorrowBookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/BranchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/BranchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/AdminRegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/AdminRegisterServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/BorrowBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/BorrowBookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/BranchServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/BranchServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/DashboardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/DashboardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/ForgetMailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/ForgetMailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/ForgetPasswordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/ForgetPasswordServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/ManageBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/ManageBookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/MemberDashboardServerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/MemberDashboardServerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/RegisterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/RegisterServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/ReturnBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/ReturnBookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/SearchBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/SearchBookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/Custom/UserManageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/Custom/UserManageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/DashboardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/DashboardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/ForegetMailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/ForegetMailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/ManagebookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/ManagebookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/MemberDashboardServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/MemberDashboardServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/RegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/RegisterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/ReturnBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/ReturnBookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/SearchBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/SearchBookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/ServiceFactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/ServiceFactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/SuperService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/SuperService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Bo/UserManageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Service/UserManageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/BranchFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/BranchFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/AdminRegisterFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/AdminRegisterFormController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/DashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/DashboardFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/MainDashboardFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/ManageBookFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/ManageBookFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/ReturnBookFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/ReturnBookFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/UserManagerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/UserManagerFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/BookviewFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/BookviewFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/BorrowBookPageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/BorrowBookPageFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/DashboardPageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/DashboardPageFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/LoginPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/LoginPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MainDashboardPageFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/MainDashboardPageFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/RegisterFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/RegisterFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/ReturnBookPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/ReturnBookPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BookRowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BookRowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BorrowBookRowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BorrowBookRowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BranchRowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/BranchRowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBookFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBookFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBranchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Save/SaveBranchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateBranchFormControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateBranchFormControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateUserFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/Update/UpdateUserFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/UserRowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/Table_Row/UserRowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/AdminRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/AdminRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/BookTransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/BookTransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/BorrowBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/BorrowBookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/BranchRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/BranchRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/CrudUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/CrudUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/AdminRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/Custom/AdminRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/BookRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/Custom/BookRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/BookTransactionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/Custom/BookTransactionRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/BorrowBookRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/Custom/BorrowBookRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/BranchRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/Custom/BranchRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/MemberRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/Custom/MemberRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/Custom/RepositoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/Custom/RepositoryFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Dao/SuperRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Repository/SuperRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/AdminRegisterForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/AdminRegisterForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/DashboardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/DashboardForm.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BookHis.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BookHis.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +76,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/danuka/Documents/Ijse/GDSE 68/Libary_manage-main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/danuka/Documents/GDSE68/book-worm-project/src/main/resources/img&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -253,7 +193,13 @@
       <workItem from="1710444470593" duration="5319000" />
       <workItem from="1710479290712" duration="9082000" />
       <workItem from="1710490508709" duration="11976000" />
-      <workItem from="1710512335205" duration="4982000" />
+      <workItem from="1710512335205" duration="5295000" />
+      <workItem from="1710565487542" duration="5375000" />
+      <workItem from="1710571520552" duration="72000" />
+      <workItem from="1710572007556" duration="923000" />
+      <workItem from="1710609339020" duration="3312000" />
+      <workItem from="1710646898939" duration="1457000" />
+      <workItem from="1710648475213" duration="313000" />
     </task>
     <task id="LOCAL-00001" summary="iniitial commit">
       <option name="closed" value="true" />
@@ -575,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710505448728</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Final test and bug fixed">
+      <option name="closed" value="true" />
+      <created>1710522553382</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1710522553382</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +537,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="register page implemented" />
     <MESSAGE value="SessionFactoryConfiguration update" />
     <MESSAGE value="dashboard implemented" />
     <MESSAGE value="dashbord form implemented" />
@@ -608,6 +561,7 @@
     <MESSAGE value="dashboard update" />
     <MESSAGE value=" update" />
     <MESSAGE value="return book transaction implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="return book transaction implemented" />
+    <MESSAGE value="Final test and bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final test and bug fixed" />
   </component>
 </project>
