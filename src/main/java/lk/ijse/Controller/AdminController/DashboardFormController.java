@@ -55,24 +55,7 @@ public class DashboardFormController {
         MemberCount.setText(String.valueOf(dashboardService.MemberCount()));
     }
 
- /*   @FXML
-    void viewPassOnActhion(ActionEvent event) {
-        String Password = PasswordFild.getText();
-        String TExtPass = PasswordTextFild.getText();
 
-        if (flag == false){
-            PasswordFild.setVisible(false);
-            PasswordTextFild.setVisible(true);
-            PasswordTextFild.setText(Password);
-            flag = true;
-        }
-        else {
-            PasswordFild.setVisible(true);
-            PasswordTextFild.setVisible(false);
-            PasswordFild.setText(TExtPass);
-            flag = false;
-        }
-    }*/
 
     public void settingsBtnOnActhion(ActionEvent actionEvent) {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/Forms/Table_Row/Update/UpdateAdmin.fxml"));

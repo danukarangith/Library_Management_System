@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="Final test and bug fixed">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/Frame8(1).png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d22341c-8bf7-4dc5-b5c7-c210c5e05d70.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d22341c-8bf7-4dc5-b5c7-c210c5e05d70.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/AdminRegisterFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/AdminRegisterFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/DashboardFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Controller/AdminController/DashboardFormController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lk/ijse/Entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lk/ijse/Entity/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/AdminRegisterForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/AdminRegisterForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Admin/DashboardForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Admin/DashboardForm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BookHis.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Forms/Table_Row/BookHis.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="965d6754-9cc5-42b7-9d03-b8b1c628a016" name="Changes" comment="  bug fixed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -200,6 +190,7 @@
       <workItem from="1710609339020" duration="3312000" />
       <workItem from="1710646898939" duration="1457000" />
       <workItem from="1710648475213" duration="313000" />
+      <workItem from="1710694368587" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="iniitial commit">
       <option name="closed" value="true" />
@@ -529,15 +520,57 @@
       <option name="project" value="LOCAL" />
       <updated>1710522553382</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="  bug fixed">
+      <option name="closed" value="true" />
+      <created>1710694396255</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1710694396255</updated>
+    </task>
+    <task id="LOCAL-00043" summary="  bug fixed">
+      <option name="closed" value="true" />
+      <created>1710694525632</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1710694525633</updated>
+    </task>
+    <task id="LOCAL-00044" summary="  bug fixed">
+      <option name="closed" value="true" />
+      <created>1710694551629</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1710694551629</updated>
+    </task>
+    <task id="LOCAL-00045" summary="  bug fixed">
+      <option name="closed" value="true" />
+      <created>1710694565501</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1710694565501</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SessionFactoryConfiguration update" />
     <MESSAGE value="dashboard implemented" />
     <MESSAGE value="dashbord form implemented" />
     <MESSAGE value="book save form implemented" />
@@ -562,6 +595,7 @@
     <MESSAGE value=" update" />
     <MESSAGE value="return book transaction implemented" />
     <MESSAGE value="Final test and bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final test and bug fixed" />
+    <MESSAGE value="  bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="  bug fixed" />
   </component>
 </project>
