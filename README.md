@@ -55,7 +55,8 @@ This is a **JavaFX**-based Library Management System that utilizes **Hibernate O
 
 ## **Screenshots**
 
-*(Add screenshots here)*
+##admin dashboard
+ ![Screenshot from 2024-08-31 00-26-36](https://github.com/user-attachments/assets/efcfd32f-ead8-41b7-b5fd-14dd143e9b65)
 
 ## **Contribution**
 
