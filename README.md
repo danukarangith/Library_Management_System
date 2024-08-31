@@ -67,5 +67,5 @@ This project is licensed under the MIT License.
 
 ## **Contact**
 
-For any inquiries, please contact your-danukarangith456.com.
+For any inquiries, please contact your- danukarangith456.com
 
