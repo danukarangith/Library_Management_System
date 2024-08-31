@@ -31,29 +31,41 @@ This is a **JavaFX**-based Library Management System that utilizes **Hibernate O
    ```sh
    git clone https://github.com/yourusername/library-management-system.git
    cd library-management-system
-Set up the MySQL database:
+ 
 
-Create a MySQL database for the project.
-Update the Hibernate configuration file (hibernate.cfg.xml) with your database details.
-Build and Run the Project:
+## **Installation and Setup**
 
-Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
-Run the project to start the application.
-Login:
+1. **Set up the MySQL database**:
+   - Create a MySQL database for the project.
+   - Update the Hibernate configuration file (`hibernate.cfg.xml`) with your database details.
 
-Use the default admin credentials to log in:
-Email: admin@example.com
-Password: admin123
-Usage
-Admin: After logging in, the admin can manage books, branches, members, returns, and other admins from the admin dashboard.
-Member: Members can search for books, borrow them, view their return history, and update their passwords.
-Screenshots
+2. **Build and Run the Project**:
+   - Open the project in your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
+   - Run the project to start the application.
 
-Contribution
+3. **Login**:
+   - Use the default admin credentials to log in:
+     - Email: admin@example.com
+     - Password: admin123
+
+## **Usage**
+
+- **Admin**: After logging in, the admin can manage books, branches, members, returns, and other admins from the admin dashboard.
+- **Member**: Members can search for books, borrow them, view their return history, and update their passwords.
+
+## **Screenshots**
+
+*(Add screenshots here)*
+
+## **Contribution**
+
 Contributions are welcome! Please fork this repository and submit a pull request for any features, improvements, or bug fixes.
 
-License
+## **License**
+
 This project is licensed under the MIT License.
 
-Contact
+## **Contact**
+
 For any inquiries, please contact your-email@example.com.
+
