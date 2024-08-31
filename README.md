@@ -29,7 +29,7 @@ This is a **JavaFX**-based Library Management System that utilizes **Hibernate O
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/library-management-system.git
+   git clone https://github.com/danukarangith/Library_Management_System.git
    cd library-management-system
  
 
